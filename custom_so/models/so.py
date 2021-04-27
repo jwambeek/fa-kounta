@@ -7,6 +7,7 @@ class CustomField(models.Model):
 class CustomField(models.Model):
     _inherit= 'sale.order.line'
     custom_payment_method = fields.Char(string='Payment Method')
+    name = fields.Text(string='Description', required=False)
 
 
 class SaleReport(models.Model):
