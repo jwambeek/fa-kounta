@@ -1,6 +1,6 @@
 {
     'name' : 'CustomSO',
-    'version': '3.0',
+    'version': '1.0.0',
     'Summary': 'Custom SO',
     'description': 'Add a Payment Method field at sale.order.line',
     'license': 'LGPL-3',
